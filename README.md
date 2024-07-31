@@ -1,6 +1,16 @@
 # custom-badge
 Custom badge to replace the deprecated Badge in 2024.8
 
+## Background
+
+Release notes Home Assistant 2024.8: Introduction of new Badges And breaking changes omn the now depracated badges tba
+
+Developer docs https://developers.home-assistant.io/docs/frontend/custom-ui/custom-badge/
+
+Community post on Dashboard development: [Lets redesign](https://community.home-assistant.io/t/dashboard-chapter-2-let-s-redesign-the-cards-together/753839/39?u=mariusthvdb)
+
+____
+
 Still in a very very pre-alpha phase. Commented the import for the editor, which does not exist yet
 
 <img width="546" alt="initial badge" src="https://github.com/user-attachments/assets/7d30aa13-e8bf-481d-958e-8110b5be1f50">
