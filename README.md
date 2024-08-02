@@ -10,6 +10,16 @@ Developer docs https://developers.home-assistant.io/docs/frontend/custom-ui/cust
 Community post on Dashboard development: [Lets redesign](https://community.home-assistant.io/t/dashboard-chapter-2-let-s-redesign-the-cards-together/753839/39?u=mariusthvdb)
 
 The new Badge design PR: https://github.com/home-assistant/frontend/pull/21401
+
+Deprecated Badge design: https://github.com/home-assistant/frontend/blob/dev/src/panels/lovelace/elements/hui-state-badge-element.ts
+
+###
+For now, we can still use the deprecated state-badge using
+
+```yaml
+type: custom:hui-state-badge-element
+entity: sensor.voorkamer_temperatuur
+```
 ____
 
 Still in a very very pre-alpha phase. Commented the import for the editor, which does not exist yet
