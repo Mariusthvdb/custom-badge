@@ -3,7 +3,7 @@ Custom badge to replace the deprecated Badge in 2024.8
 
 ## Background
 
-Release notes Home Assistant 2024.8: Introduction of new Badges And breaking changes omn the now depracated badges tba
+[Release notes Home Assistant 2024.8](https://www.home-assistant.io/blog/2024/08/07/release-20248/#new-badges-for-your-dashboard): Introduction of new Badges And breaking changes on the now deprecated badges
 
 Developer docs https://developers.home-assistant.io/docs/frontend/custom-ui/custom-badge/
 
@@ -11,7 +11,9 @@ Community post on Dashboard development: [Lets redesign](https://community.home-
 
 The new Badge design PR: https://github.com/home-assistant/frontend/pull/21401
 
-Deprecated Badge design: https://github.com/home-assistant/frontend/blob/dev/src/panels/lovelace/elements/hui-state-badge-element.ts
+Deprecated Badge design: https://github.com/home-assistant/frontend/blob/20240603.0/src/panels/lovelace/badges/hui-state-label-badge.ts
+
+Current Badge design in picture-elements card: https://github.com/home-assistant/frontend/blob/dev/src/panels/lovelace/elements/hui-state-badge-element.ts
 
 ###
 For now, we can still use the deprecated state-badge using
